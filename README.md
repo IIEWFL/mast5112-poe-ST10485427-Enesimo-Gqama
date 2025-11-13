@@ -77,39 +77,39 @@ The new setup looks like this:
 Changelog
 
  Initial Release
- Base project created with Expo + TypeScript
- App structure set up with Guest, Chef Manage, and Chef Kitchen screens
- AsyncStorage integrated for dish persistence
- Basic components: MenuItemCard, dish model, price formatting
+ - Base project created with Expo + TypeScript
+ - App structure set up with Guest, Chef Manage, and Chef Kitchen screens
+ - AsyncStorage integrated for dish persistence
+ - Basic components: MenuItemCard, dish model, price formatting
 
 Course Filtering + Dish Details
 
-Added CourseSelectionScreen
-Added DishDetailsScreen
-Updated GuestMenuScreen to support course selection
-Added navigation states course_select and dish_details
-Improved MenuItemCard layout
+- Added CourseSelectionScreen
+- Added DishDetailsScreen
+- Updated GuestMenuScreen to support course selection
+- Added navigation states course_select and dish_details
+- Improved MenuItemCard layout
 
 Image Support
 
-Dish type updated to include image?: string | number
-Added image upload support in ChefManageScreen
-Added image display to DishDetailsScreen and MenuItemCard
+- Dish type updated to include image?: string | number
+- Added image upload support in ChefManageScreen
+- Added image display to DishDetailsScreen and MenuItemCard
 
 Average Price Feature
 
-Added automatic calculation of average price per course
-Displayed average price inside GuestMenuScreen under course filters
+- Added automatic calculation of average price per course
+- Displayed average price inside GuestMenuScreen under course filters
 
 Guest Filter Screen (Multi-Course Filtering)
 
-Added GuestFilterScreen.tsx
-Added chips/toggles for selecting multiple courses
-Added dynamic filtered list of dishes
-Integrated new navigation state: guest_filter
-Updated App.tsx to include filter navigation button
-Selecting filtered dishes opens Dish Details
-Includes summary of active filters
+- Added GuestFilterScreen.tsx
+- Added chips/toggles for selecting multiple courses
+- Added dynamic filtered list of dishes
+- Integrated new navigation state: guest_filter
+- Updated App.tsx to include filter navigation button
+- Selecting filtered dishes opens Dish Details
+- Includes summary of active filters
 
 Summary
 In short, this app:
