@@ -11,52 +11,34 @@ The app makes it easy for a restaurant or chef to manage a menu and for guests t
 
 Key Features
 
-1. Guest View
-   
+1. Guest View 
 Browse all available dishes.
-
 Filter dishes by course (Appetizer, Main, Dessert, Side, Drink).
-
 View average price per course.
-
 View full dish details including name, price, description, and image.
-
 NEW: Guest Filter Screen allowing multi-course filtering.
 
 2. Chef Manage Screen
-
 Add new dishes.
-
 Edit existing dishes.
-
 Upload/select images for each dish.
-
 Delete dishes.
-
 All changes automatically saved to device storage.
 
 3. Chef Kitchen Screen
-
 Quick-edit version of the Chef Manage Screen.
-
 Allows staff to quickly update dish names or prices.
-
 Falls back to full Chef Manage screen when prompt editing isn’t supported.
 
 4. Course Selection Screen
-
 Guest chooses a course to filter the main menu.
-
 Used internally by Guest View.
 
 5. Dish Details Screen
-
 Shows all info for a dish including image.
-
 Clean layout, large text, and easy navigation.
 
 6. Data Storage
-
 Dishes persist between app launches using AsyncStorage.
 
 Includes a testing button to clear all data.
